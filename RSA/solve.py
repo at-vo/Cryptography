@@ -25,8 +25,11 @@ container = {
 #             }
 
 def solve(N,d,c):
+    # convert to binary 
     rxor = f'{pow(c,d,N):060b}'
+    # split into two components
     r,xor = rxor[:len(rxor)//2], rxor[len(rxor)//2:]
+    # check if same digits and return string
     return ''.join(['1' if r[digit]==xor[digit] else '0' for digit in range(len(xor)) ])
 
 
