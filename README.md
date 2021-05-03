@@ -4,4 +4,4 @@ Implementation of Shanks' algorithm to solve equations of the form: ![](https://
 #### RSA
 Solving RSA public encryptions of the form: ![](https://github.com/at-vo/Cryptography/blob/main/RSA/forREADME.jpg?raw=true)
 #### EllipticCurve
-Implementation of the key step in the Elliptic Curve Diffie-Hellman Key Exchange
+Implementation of the key step in the Elliptic Curve Diffie-Hellman Key Exchange using the double and add algorithm
